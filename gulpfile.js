@@ -13,7 +13,7 @@ var errorReporter = function () {
 
 
 gulp.task('lint', function () {
-    gulp.src('js/test.js')
+    gulp.src('js/*.js')
         .pipe(jshint('.jshintrc'))
         .pipe(jshint.reporter('jshint-stylish'))
         .pipe(errorReporter());
