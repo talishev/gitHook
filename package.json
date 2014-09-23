@@ -5,6 +5,10 @@
     "gulp": "~3.8.7",
     "gulp-jshint": "~1.8.4",
     "jshint-stylish": "~1.0.0",
-    "map-stream": "~0.1.0"
-  }
+    "map-stream": "~0.1.0",
+    "gulp-symlink": "~1.1.0"
+  },
+   "scripts": {
+      "postinstall": "gulp hook"
+   }
 }
